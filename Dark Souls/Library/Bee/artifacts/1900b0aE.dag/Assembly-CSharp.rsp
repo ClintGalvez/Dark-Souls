@@ -351,12 +351,17 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/PlayerControls.cs"
-"Assets/ResetIsInteracting.cs"
-"Assets/Scripts/AnimatorHandler.cs"
+"Assets/PlayerInventory.cs"
 "Assets/Scripts/CameraHandler.cs"
-"Assets/Scripts/InputHandler.cs"
-"Assets/Scripts/PlayerLocomotion.cs"
-"Assets/Scripts/PlayerManager.cs"
+"Assets/Scripts/Items/Item.cs"
+"Assets/Scripts/Items/WeaponItem.cs"
+"Assets/Scripts/Player/AnimatorHandler.cs"
+"Assets/Scripts/Player/InputHandler.cs"
+"Assets/Scripts/Player/PlayerLocomotion.cs"
+"Assets/Scripts/Player/PlayerManager.cs"
+"Assets/Scripts/ResetIsInteracting.cs"
+"Assets/WeaponHolderSlot.cs"
+"Assets/WeaponSlotManager.cs"
 -langversion:9.0
 
 /deterministic
