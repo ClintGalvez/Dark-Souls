@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\WeaponHolderSlot.cs" />
     <Compile Include="Assets\Scripts\WeaponSlotManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerManager.cs" />
+    <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Items\WeaponItem.cs" />
     <Compile Include="Assets\Scripts\Player\InputHandler.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerLocomotion.cs" />
@@ -69,6 +70,12 @@
     <Compile Include="Assets\Scripts\Player\AnimatorHandler.cs" />
     <Compile Include="Assets\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\CameraHandler.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerStats.cs" />
+    <Compile Include="Assets\Scripts\Player\DamagePlayer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Art\Models\Fire Model\Shaders\FireSphere.shader" />
+    <None Include="Assets\Art\Models\Fire Model\Demo scene\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

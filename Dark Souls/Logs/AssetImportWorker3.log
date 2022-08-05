@@ -1,0 +1,232 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Development\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/Development/GitHub/Dark Souls/Dark Souls
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+53490
+Successfully changed project path to: E:/Development/GitHub/Dark Souls/Dark Souls
+E:/Development/GitHub/Dark Souls/Dark Souls
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 67.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path E:/Development/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Development/GitHub/Dark Souls/Dark Souls/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12142 MB
+    Driver:   30.0.15.1277
+Initialize mono
+Mono path[0] = 'E:/Development/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Development/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Development/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Development/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Development/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002815 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 74.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.471 seconds
+Domain Reload Profiling:
+	ReloadAssembly (471ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (346ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (68ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003060 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Development\GitHub\Dark Souls\Dark Souls\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Development\GitHub\Dark Souls\Dark Souls\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 67.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5964ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (5637ms)
+			LoadAssemblies (3286ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (805ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (1481ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (543ms)
+				ProcessInitializeOnLoadMethodAttributes (796ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (111.3 KB). Loaded Objects now: 4196.
+Memory consumption went from 143.5 MB to 143.4 MB.
+Total: 19.449300 ms (FindLiveObjects: 0.286400 ms CreateObjectMapping: 0.082500 ms MarkObjects: 18.645900 ms  DeleteObjects: 0.433700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 516994.311334 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Demo scene/Concrete slab_MetallicSmoothness.png
+  artifactKey: Guid(a685c8f461a651a46a2631ea3decafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Demo scene/Concrete slab_MetallicSmoothness.png using Guid(a685c8f461a651a46a2631ea3decafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c384a89e1cf49b81a4aef8cb5ce9a2') in 0.129164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire 3.prefab
+  artifactKey: Guid(78e8b38d431ddef4fa2994a3f2d6e2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire 3.prefab using Guid(78e8b38d431ddef4fa2994a3f2d6e2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a11e536c59f89574229b9c0c1cc405') in 0.234550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Demo scene/ReflectionProbe-0.exr
+  artifactKey: Guid(b437cf6f67f5f1c4e9f1876cbbb8aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Demo scene/ReflectionProbe-0.exr using Guid(b437cf6f67f5f1c4e9f1876cbbb8aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9df3f3757402d849cab3e8689e5d9c') in 0.043104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Hovl Studio/Procedural fire
+  artifactKey: Guid(e33f2fd6303667f4a961a3e577b86b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire using Guid(e33f2fd6303667f4a961a3e577b86b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7412405a3c1c2639b6cf1768893507f8') in 0.004667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Materials/FireSphere1.mat
+  artifactKey: Guid(14fab0de6c54324468738e7b38a88207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Materials/FireSphere1.mat using Guid(14fab0de6c54324468738e7b38a88207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e95b8ef918b231257047ca02813e13') in 0.018947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/Procedural fire/URP and HDRP/How to change rendering pipeline.png
+  artifactKey: Guid(e7ccd183c307b23438d784153ab85448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/URP and HDRP/How to change rendering pipeline.png using Guid(e7ccd183c307b23438d784153ab85448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1556e8f3d38091e6bf6ae1cd6ebdccfd') in 0.012651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire 0.prefab
+  artifactKey: Guid(08fd1b80cc24cc8439f45fda3c558255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire 0.prefab using Guid(08fd1b80cc24cc8439f45fda3c558255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b869be026884dce00b05ac1ce7cd4f') in 0.009806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire pro red.prefab
+  artifactKey: Guid(eca000ab44c908d4dab395f654753038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire pro red.prefab using Guid(eca000ab44c908d4dab395f654753038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f850bb83188daa63f52c870f1bcca1') in 0.010590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire 2.prefab
+  artifactKey: Guid(529eb4216865eba419c1a4a68d0b0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire 2.prefab using Guid(529eb4216865eba419c1a4a68d0b0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1da83c3facc819d0137979c3281f0a') in 0.009805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Demo scene/Demo fire.unity
+  artifactKey: Guid(4eef2ef4e641de143ba1000e4c684d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Demo scene/Demo fire.unity using Guid(4eef2ef4e641de143ba1000e4c684d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764c8c2790c642e115d72272648ce96b') in 0.005147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Demo scene/ReflectionProbe-1.exr
+  artifactKey: Guid(6cd5e7294f0f7be4aa89e131da9505b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Demo scene/ReflectionProbe-1.exr using Guid(6cd5e7294f0f7be4aa89e131da9505b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820175caa28274e1a8de63715cef2d20') in 0.012177 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
