@@ -18,6 +18,7 @@ namespace CG
 
         public bool rollFlag;
         public bool sprintFlag;
+        public bool comboFlag;
         public float rollInputTimer;
 
         PlayerControls inputActions;
@@ -91,17 +92,26 @@ namespace CG
 
         private void HandleAttackInput(float delta)
         {
-            if (playerManager.isInteracting) // BUG FIX: prevents continous attack which interrupt prior attacks (from ep. 9)
-            {
-                return;
-            }
-
             inputActions.PlayerActions.RB.performed += i => rb_Input = true;
             inputActions.PlayerActions.RT.performed += i => rt_Input = true;
 
             if (rb_Input)
             {
-                playerAttacker.HandleLightAttack(playerInventory.rightWeapon);
+                if (playerManager.canDoCombo)
+                {
+                    comboFlag = true;
+                    playerAttacker.HandleWeaponCombo(playerInventory.rightWeapon);
+                    comboFlag = false;
+                }
+                else
+                {
+                    if (playerManager.isInteracting || playerManager.canDoCombo)
+                    {
+                        return;
+                    }
+
+                    playerAttacker.HandleLightAttack(playerInventory.rightWeapon); 
+                }
             }
 
             if (rt_Input)
